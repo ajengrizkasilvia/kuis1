@@ -1,5 +1,7 @@
 # flutter_kuis_1
 
+![plot](./image/gb1.jpeg)
+![plot](./image/gb2.jpeg)
 A new Flutter project.
 
 ## Getting Started
