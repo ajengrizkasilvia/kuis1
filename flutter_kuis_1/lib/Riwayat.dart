@@ -12,13 +12,13 @@ class Riwayat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-        children: listViewItem.map((String value) {
+        children: listViewItem.map((String value) { //map-> menampilkan hasil setiap item yg ada dlm list item
       return Container(
           margin: EdgeInsets.all(10),
           child: Text(
             value,
             style: TextStyle(fontSize: 15),
           ));
-    }).toList());
+    }).toList()); //menampilkan yg dipilih dari menu item
   }
 }

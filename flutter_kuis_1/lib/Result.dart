@@ -4,9 +4,9 @@ import 'package:flutter/services.dart';
 class Result extends StatelessWidget {
   const Result({
     Key key,
-    @required this.result,
+    @required this.result, //isi parameter konstruktor
   }) : super(key: key);
-  final double result;
+  final double result; //final -> deklarasi variabel pada konstruktor
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -19,7 +19,7 @@ class Result extends StatelessWidget {
             style: TextStyle(fontSize: 20),
           ),
           Text(
-            result.toStringAsFixed(1),
+            result.toStringAsFixed(1), //menampilkan hasil agar nilainya 1 dibelakang koma
             style: TextStyle(fontSize: 30),
           )
         ],

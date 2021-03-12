@@ -7,10 +7,10 @@ class Convert extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
+      width: double.infinity, //mengatur posisi button lebar kesamping
       height: 50,
-      child: RaisedButton(
-        onPressed: konvertHandler,
+      child: RaisedButton( //widget untuk membuat button
+        onPressed: konvertHandler, //untuk dapat diklik kemudian di eks
         color: Colors.blueAccent,
         textColor: Colors.white,
         child: Text("Konversi Massa", style: TextStyle(
